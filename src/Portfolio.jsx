@@ -111,9 +111,8 @@ export default function PortfolioDark() {
   const experience = useMemo(
     () => [
       {
-        title: "Student Developer",
-        org: "(Your club / lab / personal work)",
-        time: "2025 — Present",
+        title: "Software Engineering",
+        org: "Class Project",
         bullets: [
           "Built course projects with clean OOP and MVC architecture.",
           "Practiced debugging and performance thinking using systems labs.",
@@ -330,7 +329,7 @@ export default function PortfolioDark() {
               >
                 <Card className="h-full border-white/10 bg-white/5 shadow-xl shadow-black/20">
                   <CardHeader className="pb-2">
-                    <CardTitle className="flex items-center gap-2 text-base">
+                    <CardTitle className="flex items-center gap-2 text-base text-zinc-100">
                       <GraduationCap className="h-5 w-5" />
                       Current Focus
                     </CardTitle>
@@ -428,7 +427,7 @@ export default function PortfolioDark() {
 
               <Card className="border-white/10 bg-white/5 lg:col-span-5">
                 <CardHeader className="pb-2">
-                  <CardTitle className="text-base">Quick facts</CardTitle>
+                  <CardTitle className="text-base text-zinc-100">Quick facts</CardTitle>
                 </CardHeader>
                 <CardContent className="space-y-3">
                   {[
@@ -454,7 +453,7 @@ export default function PortfolioDark() {
           <Section
             id="projects"
             title="Projects"
-            subtitle="Selected work (swap these with your real links)"
+            subtitle="Selected work"
           >
             <div className="grid gap-6 lg:grid-cols-3">
               {projects.map((p) => (
@@ -540,7 +539,7 @@ export default function PortfolioDark() {
 
               <Card className="border-white/10 bg-white/5 lg:col-span-5">
                 <CardHeader className="pb-2">
-                  <CardTitle className="text-base">What I’m proud of</CardTitle>
+                  <CardTitle className="text-base text-zinc-100">What I’m proud of</CardTitle>
                 </CardHeader>
                 <CardContent className="space-y-3">
                   {[
@@ -576,7 +575,7 @@ export default function PortfolioDark() {
           <Section
             id="experience"
             title="Experience"
-            subtitle="Things I’ve done (even class projects count if you frame them well)"
+            subtitle="Things I’ve done"
           >
             <div className="grid gap-6 lg:grid-cols-2">
               {experience.map((e) => (
