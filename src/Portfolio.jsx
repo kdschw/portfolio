@@ -39,7 +39,7 @@ export default function PortfolioDark() {
         github: "https://github.com/kdschw/kdschw.git",
         linkedin: "https://linkedin.com/in/kyle-schwartz-81518a331",
       },
-      resumeUrl: "#",
+      resumeUrl: "/Kyle_Schwartz.pdf",
       about:
         "I'm a computer science student who enjoys solving problems, building tools that help people, and turning ideas into polished products. I like working across the stack — from data structures and systems fundamentals to modern web apps.",
       highlights: [
