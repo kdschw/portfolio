@@ -37,7 +37,7 @@ export default function PortfolioDark() {
       email: "kyleschwartz12@gmail.com",
       socials: {
         github: "https://github.com/kdschw/kdschw.git",
-        linkedin: "https://linkedin.com/in/kyle-schwartz-81518a331",
+        linkedin: "https://linkedin.com/in/kyle-schwartz12",
       },
       resumeUrl: "/Kyle_Schwartz.pdf",
       about:
@@ -49,7 +49,7 @@ export default function PortfolioDark() {
       ],
       skills: {
         Languages: ["Java", "Python", "C++", "JavaScript/TypeScript"],
-        Frameworks: ["React", "Node.js", "Express"],
+        Frameworks: ["React", "Node.js"],
         Tools: ["Git", "Linux", "VS Code"],
         Concepts: ["Data Structures", "OOP", "MVC", "Computer Architecture"],
       },
@@ -65,8 +65,8 @@ export default function PortfolioDark() {
           "A horizontally scrolling game with map editing, collision detection, JSON save/load, and polymorphic sprites.",
         tags: ["Java", "MVC", "Collision", "JSON"],
         links: {
-          demo: "#",
-          code: "#",
+          // demo: "#",
+          // code: "#",
         },
         highlights: [
           "Custom map editor with click-to-place objects",
@@ -80,8 +80,8 @@ export default function PortfolioDark() {
           "A small Python toolkit exploring adjacency matrices, graph traversal, and clean API design.",
         tags: ["Python", "Graphs", "Algorithms"],
         links: {
-          demo: "#",
-          code: "#",
+          // demo: "#",
+          // code: "#",
         },
         highlights: [
           "Simple, testable graph operations",
@@ -95,8 +95,8 @@ export default function PortfolioDark() {
           "MIPS + VHDL labs including ALUs, CPU control block, sign-extension, and memory integration.",
         tags: ["MIPS", "VHDL", "Architecture"],
         links: {
-          demo: "#",
-          code: "#",
+          // demo: "#",
+          // code: "#",
         },
         highlights: [
           "Single-cycle datapath analysis",
@@ -122,7 +122,6 @@ export default function PortfolioDark() {
       {
         title: "",
         org: "",
-        time: "",
         bullets: [
          
         ],
@@ -358,7 +357,7 @@ export default function PortfolioDark() {
                       {[
                         {
                           label: "Open to",
-                          value: "Internships · Research · Freelance",
+                          value: "Internships · Full-time · Freelance",
                         },
                         {
                           label: "Interests",
@@ -453,7 +452,7 @@ export default function PortfolioDark() {
           <Section
             id="projects"
             title="Projects"
-            subtitle="Selected work"
+            // subtitle=""
           >
             <div className="grid gap-6 lg:grid-cols-3">
               {projects.map((p) => (
@@ -467,12 +466,12 @@ export default function PortfolioDark() {
                       <CardTitle className="flex items-center justify-between gap-3 text-base">
                         <span className="text-zinc-50">{p.title}</span>
                         <span className="inline-flex items-center gap-2">
-                          <IconLink href={p.links.code} label="Code">
+                          {/* <IconLink href={p.links.code} label="Code">
                             <Github className="h-4 w-4" />
                           </IconLink>
                           <IconLink href={p.links.demo} label="Demo">
                             <ExternalLink className="h-4 w-4" />
-                          </IconLink>
+                          </IconLink> */}
                         </span>
                       </CardTitle>
                       <p className="text-sm text-zinc-300">{p.blurb}</p>
@@ -648,8 +647,7 @@ export default function PortfolioDark() {
                   <div className="rounded-2xl border border-white/10 bg-black/20 p-4">
                     <div className="text-sm font-semibold text-zinc-50">One-liner</div>
                     <p className="mt-2 text-sm text-zinc-300">
-                      I’m always open to feedback and collaboration — especially on
-                      student-friendly, real-world projects.
+                      I’m always open to feedback and collaboration.
                     </p>
                   </div>
                 </CardContent>
