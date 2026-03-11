@@ -32,7 +32,7 @@ export default function PortfolioDark() {
     () => ({
       name: "Kyle Schwartz",
       role: "Computer Science Student",
-      tagline: "I build clean, reliable software — from algorithms to full-stack apps.",
+      tagline: "Computer Science student building practical software projects while developing strong foundations in algorithms, systems, and software design.",
       location: "Fayetteville, AR",
       email: "kyleschwartz12@gmail.com",
       socials: {
@@ -41,7 +41,7 @@ export default function PortfolioDark() {
       },
       resumeUrl: "/Kyle_Schwartz.pdf",
       about:
-        "I'm a computer science student who enjoys solving problems, building tools that help people, and turning ideas into polished products. I like working across the stack — from data structures and systems fundamentals to modern web apps.",
+        "I'm a Computer Science student who enjoys learning how software works from the ground up. Through my coursework and personal projects, I've built experience with data structures, algorithms, object-oriented programming, computer architecture, and web development. I enjoy solving problems, improving my programming skills, and building projects that demonstrate practical software engineering concepts.",
       highlights: [
         "Strong fundamentals: DS&A, OOP, systems",
         "Hands-on: Java, Python, C++, game projects",
@@ -75,33 +75,33 @@ export default function PortfolioDark() {
         ],
       },
       {
-        title: "Graph + Matrix Toolkit",
+        title: "Graph Pathfinding Algorithms ",
         blurb:
-          "A small Python toolkit exploring adjacency matrices, graph traversal, and clean API design.",
+          "Implemented multiple graph traversal algorithms including BFS, DFS, and Recursive DFS to find paths between nodes.",
         tags: ["Python", "Graphs", "Algorithms"],
         links: {
           // demo: "#",
           // code: "#",
         },
         highlights: [
-          "Simple, testable graph operations",
-          "Clear method design and usage examples",
-          "Built as reusable module",
+          "Implemented Breadth-First Search and Depth-First Search",
+          "Visualized graph paths using map assets",
+          "Compared algorithm behavior and path results"
         ],
       },
       {
-        title: "CPU Labs Portfolio",
+        title: "Fortune 500 Database System",
         blurb:
-          "MIPS + VHDL labs including ALUs, CPU control block, sign-extension, and memory integration.",
-        tags: ["MIPS", "VHDL", "Architecture"],
+          "Developed a Python database tool that reads, processes, and queries Fortune 500 company data from CSV files.",
+        tags: ["Python", "Data Processing", "File I/O"],
         links: {
           // demo: "#",
           // code: "#",
         },
         highlights: [
-          "Single-cycle datapath analysis",
-          "Bubble sort in MIPS with function calls",
-          "Top-level module wiring + waveform validation",
+          "Parsed and processed large CSV datasets",
+          "Implemented custom database operations using Python classes",
+          "Built a command-driven interface for querying company records"
         ],
       },
     ],
@@ -112,18 +112,22 @@ export default function PortfolioDark() {
     () => [
       {
         title: "Software Engineering",
-        org: "Class Project",
+        org: "Personal & Academic Projects",
         bullets: [
-          "Built course projects with clean OOP and MVC architecture.",
-          "Practiced debugging and performance thinking using systems labs.",
-          "Collaborated with classmates using Git and code reviews.",
+          "Developed multiple programming projects in Java and Python focusing on data structures, algorithms, and software design.",
+          "Built a 2D platformer game using object-oriented programming and MVC architecture.",
+          "Implemented graph traversal algorithms including BFS and DFS in Python.",
+          "Worked with low-level programming concepts through MIPS assembly and VHDL CPU design labs."
         ],
       },
       {
-        title: "",
-        org: "",
+        title: "Computer Architecture Projects",
+        org: "University Coursework",
         bullets: [
-         
+          "Implemented bubble sort and array manipulation programs in MIPS assembly.",
+          "Designed and simulated a 16-bit Arithmetic Logic Unit (ALU) using VHDL.",
+          "Built CPU control logic and integrated memory modules for a simplified processor.",
+          "Used waveform simulations and testbenches to verify hardware functionality."
         ],
       },
     ],
@@ -336,9 +340,11 @@ export default function PortfolioDark() {
                   <CardContent className="space-y-4">
                     <div className="rounded-2xl border border-white/10 bg-black/30 p-4">
                       <p className="text-sm text-zinc-200">
-                        I’m currently sharpening my fundamentals while building
-                        portfolio projects that feel real: clean architecture,
-                        readable code, and practical performance.
+                        I’m currently a Computer Science student focused on building
+                        strong programming fundamentals while developing real projects.
+                        My coursework has included data structures, computer architecture,
+                        and object-oriented programming, and I enjoy applying those concepts
+                        through hands-on software projects.
                       </p>
                       <div className="mt-3 flex flex-wrap gap-2">
                         {["DS&A", "OOP", "Systems", "Full-stack"].map((t) => (
@@ -584,7 +590,6 @@ export default function PortfolioDark() {
                       {e.title}
                     </CardTitle>
                     <div className="text-sm text-zinc-300">
-                      {e.org} · <span className="text-zinc-400">{e.time}</span>
                     </div>
                   </CardHeader>
                   <CardContent>
